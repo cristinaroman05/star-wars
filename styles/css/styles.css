@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../../../assets/fonts/Roboto-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../../../assets/fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poller one";
+  src: url(../../../assets/fonts/PollerOne-Regular.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto", Arial, sans-serif;
+  font-weight: 300;
+}
+
+.footer {
+  height: 75px;
+  border-bottom: 12px solid #E4D18C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F3F3;
+  color: #B7B7B7;
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    border-bottom: 0;
+    border-radius: 100px;
+    max-width: 1280px;
+    margin: 50px auto 65px auto;
+  }
+}
+.footer__title {
+  font-size: 14px;
+  font-family: "poller one";
+}
+.footer__copyright {
+  font-size: 14px;
+}
+
+.header {
+  text-align: center;
+  height: 70px;
+  background-color: #4E4E4E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    max-width: 1280px;
+    border-radius: 100px;
+    margin: 65px auto 20px auto;
+  }
+}
+.header__title {
+  color: white;
+  font-family: "poller one";
+  font-size: 18px;
+}
+.header__subtitle {
+  font-size: 14px;
+  display: block;
+}
+.header--home {
+  background-image: url(../../../assets/images/cabecera.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: black;
+  height: 100vh;
+}
+@media screen and (min-width: 1440px) {
+  .header--home {
+    height: 580px;
+    border-radius: 500px;
+  }
+}
+.header .header__title {
+  font-size: 34px;
+}
+.header .header__subtitle {
+  font-size: 24px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.nav__link {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  background-color: #4E4E4E;
+  border-radius: 100px;
+  margin-bottom: 15px;
+  width: 100%;
+  cursor: pointer;
+  padding: 18px;
+}
+
+.section-home {
+  text-align: right;
+  padding: 20px;
+}
+.section-home__title {
+  font-size: 14px;
+  font-family: "Poller One";
+  margin: 30px auto;
+}
+.section-home__description {
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+  font-family: "poller one";
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

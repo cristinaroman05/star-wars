@@ -1,0 +1,14 @@
+@import 'utilities/variables';
+@import 'utilities/mixins';
+@import 'base/typo';
+@import 'base/reset';
+@import 'layouts/footer';
+@import 'layouts/main';
+@import 'layouts/header';
+@import 'layouts/nav';
+@import 'layouts/section-home';
+body{
+    background-color: $primary-color;
+    font-family: 'poller one';
+    color: $secondary-color;
+}
