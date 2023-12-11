@@ -1,6 +1,6 @@
-const printHome =() =>{
-    mainContainer.innerHTML =`
-    <section class="section-home">
+const printHome = () => {
+    mainContainer.innerHTML = `
+        <section class="section-home">
             <h3 class="section-home__title">ABOUT THE WEB<h3>
             <p class="section-home__description"> La República Galáctica está sumida en el caos. 
                 Los impuestos de las rutas comerciales a los sistemas 
