@@ -17,4 +17,13 @@ const printHome = () => {
             </nav>
         </section>
     `;
+    addEventsToHomeLinks();
+}
+const addEventsToHomeLinks = () => {
+    const homeLinks =[...document.getElementsByClassName('nav__link')];
+    homeLinks.forEach( element => {
+        element.addEventListener('click', () => {
+            printPage(element.textContent.toLocaleUpperCase());;
+        });
+    });
 }

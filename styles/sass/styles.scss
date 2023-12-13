@@ -7,6 +7,8 @@
 @import 'layouts/header';
 @import 'layouts/section-home';
 @import 'layouts/nav';
+@import 'layouts/section';
+@import 'components/card';
 body{
     background-color: $primary-color;
     font-family: 'poller one';
