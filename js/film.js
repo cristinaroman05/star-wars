@@ -48,9 +48,9 @@ const formatDataFilm = (data) => {
 
 const formatFilmDetail = (film) => {
     let characters = formatOptions('characters', film.characters);
-    // let planets = formatOptions('planets', film.planets);
-    // let starships = formatOptions('starships', film.starships);
-    // let species = formatOptions('species', film.species);
+    let planets = formatOptions('planets', film.planets);
+    let starships = formatOptions('starships', film.starships);
+    let species = formatOptions('species', film.species);
 
     return `
         <div class="detail">
@@ -73,3 +73,10 @@ const formatFilmDetail = (film) => {
         </div>
     `;
 }
+// const formatOptions = (option,options) => {
+//     let htmlStructure ='';
+//     options.forEach (element =>{
+//         htmlStructure += `<img class="detail__options-img" src="${element.urlImg}">`
+//     })
+//     return htmlStructure;
+// }

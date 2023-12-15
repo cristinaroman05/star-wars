@@ -117,4 +117,21 @@
         }
 
     }
+    &--starship{
+        @include adaptTo ('not-mobile'){
+            .detail-img{
+                width: 500px;
+                margin: 0 auto;
+            }
+            .detail-title{
+                border-radius: 200px;
+                text-align: center;
+            }
+            .detail__info-container{
+                padding-left: 0;
+                width: 100%;
+                max-width: 900px
+            }
+        }
+    }
 }
